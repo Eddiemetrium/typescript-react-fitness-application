@@ -1,5 +1,7 @@
 import NavBar from "@/scenes/navbar"
+import Home from "@/scenes/home"
 import { useState,useEffect } from "react"
+import Benefits from "@/scenes/benefits"
 import { SelectedPage } from "./shared/types";
 
 function App() {
@@ -20,11 +22,13 @@ window.addEventListener("scroll", handleScroll);
   return (
     <div className="app">
 <NavBar
-
 isTopOfPage={isTopOfPage}
-
 selectedPage={selectedPage}
-    setSelectedPage={setSelectedPage} />  
+setSelectedPage={setSelectedPage} /> 
+
+    <Home setSelectedPage={setSelectedPage}/> 
+        <Benefits setSelectedPage={setSelectedPage}/> 
+
     </div>
   )
 }
