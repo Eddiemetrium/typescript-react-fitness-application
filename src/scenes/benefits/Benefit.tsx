@@ -23,10 +23,7 @@ const Benefit = ({ icon, title, description, setSelectedPage }: Props) => {
             whileInView="visible"
             viewport={{ once: true, amount: 0.5 }}
             transition={{ duration: 0.5 }}
-            variants={{
-              hidden: { opacity: 0, x: -50 },
-              visible: { opacity: 1, x: 0 },
-            }}
+
     >
       <div className="mb-4 flex justify-center">
         <div className="rounded-full border-2 border-gray-100 bg-primary-100 p-4">
