@@ -1,9 +1,11 @@
 {
+  "homepage": "https://eddiemetrium.github.io/typescript-react-fitness-application",
   "name": "typescript-react-fitness-application",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+          "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
@@ -23,9 +25,10 @@
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^3.1.0",
     "autoprefixer": "^10.4.14",
+    "gh-pages": "^5.0.0",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.7",
     "typescript": "^4.9.3",
     "vite": "^4.2.0"
-  }
-}
+  }}
+

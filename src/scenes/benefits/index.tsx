@@ -45,7 +45,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
         {/* HEADER */}
         <div className="">
           <HText>
-            MORE THAN JUST A GYM
+            {/* MORE THAN JUST A GYM */}
           </HText>
           <p className="my-5 text-md">
             We provide world class fitness equipment, trainers and classes to get you to your ultimate fitness goals with ease. We provide true care into each and every member.
